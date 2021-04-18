@@ -1,0 +1,25 @@
+﻿<Window x:Class="FirstProgram.AgeListWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FirstProgram"
+mc:Ignorable="d"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        Title="MyProject" Height="500" Width="750" WindowStyle="None">
+    <Grid Background="Purple" RenderTransformOrigin="0.515,0.52">
+        <Border MinWidth="500" Margin="0,151,-0.4,121.6" Background="White" VerticalAlignment="Center" Padding="40" MaxWidth="650" CornerRadius="25" Height="221">
+            <Border.Effect>
+                <DropShadowEffect BlurRadius="90" Color="Black" ShadowDepth="0"/>
+            </Border.Effect>
+            <StackPanel>
+                <TextBlock Text="Ваш кабінет" FontSize="30" FontWeight="Bold" Margin="0 0 0 20"/>
+                <TextBlock Text="Оберіть віковий діапазон" FontSize="17" FontWeight="DemiBold" Margin="0 0 0 20"/>
+                <Grid Margin="0 0 0 20">
+                    <Button HorizontalAlignment="Right" Content="Хлопчик" Click="Button_Click" Margin="0,0,-0.4,0" Width="230"/>
+                    <Button HorizontalAlignment="Left" Content="Дівчинка" Click="Button_Click" Width="230"/>
+                </Grid>
+            </StackPanel>
+        </Border>
+    </Grid>
+</Window>

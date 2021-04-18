@@ -1,0 +1,68 @@
+D:\ООП\FirstProgram\FirstProgram\bin\Debug\FirstProgram.exe.config
+D:\ООП\FirstProgram\FirstProgram\bin\Debug\FirstProgram.exe
+D:\ООП\FirstProgram\FirstProgram\bin\Debug\FirstProgram.pdb
+D:\ООП\FirstProgram\FirstProgram\obj\Debug\FirstProgram.csprojAssemblyReference.cache
+D:\ООП\FirstProgram\FirstProgram\obj\Debug\MainWindow.g.cs
+D:\ООП\FirstProgram\FirstProgram\obj\Debug\App.g.cs
+D:\ООП\FirstProgram\FirstProgram\obj\Debug\FirstProgram_MarkupCompile.cache
+D:\ООП\FirstProgram\FirstProgram\obj\Debug\FirstProgram_MarkupCompile.lref
+D:\ООП\FirstProgram\FirstProgram\obj\Debug\MainWindow.baml
+D:\ООП\FirstProgram\FirstProgram\obj\Debug\FirstProgram.g.resources
+D:\ООП\FirstProgram\FirstProgram\obj\Debug\FirstProgram.Properties.Resources.resources
+D:\ООП\FirstProgram\FirstProgram\obj\Debug\FirstProgram.csproj.GenerateResource.cache
+D:\ООП\FirstProgram\FirstProgram\obj\Debug\FirstProgram.csproj.CoreCompileInputs.cache
+D:\ООП\FirstProgram\FirstProgram\obj\Debug\FirstProgram.exe
+D:\ООП\FirstProgram\FirstProgram\obj\Debug\FirstProgram.pdb
+D:\ООП\FirstProgram\FirstProgram\bin\Debug\MaterialDesignColors.dll
+D:\ООП\FirstProgram\FirstProgram\bin\Debug\MaterialDesignThemes.Wpf.dll
+D:\ООП\FirstProgram\FirstProgram\bin\Debug\MaterialDesignColors.pdb
+D:\ООП\FirstProgram\FirstProgram\bin\Debug\MaterialDesignThemes.Wpf.pdb
+D:\ООП\FirstProgram\FirstProgram\bin\Debug\MaterialDesignThemes.Wpf.xml
+D:\ООП\FirstProgram\FirstProgram\obj\Debug\App.baml
+D:\ООП\FirstProgram\FirstProgram\obj\Debug\FirstProgram.csproj.CopyComplete
+D:\ООП\FirstProgram\FirstProgram\bin\Debug\EntityFramework.dll
+D:\ООП\FirstProgram\FirstProgram\bin\Debug\EntityFramework.SqlServer.dll
+D:\ООП\FirstProgram\FirstProgram\bin\Debug\System.Data.SQLite.dll
+D:\ООП\FirstProgram\FirstProgram\bin\Debug\System.Data.SQLite.EF6.dll
+D:\ООП\FirstProgram\FirstProgram\bin\Debug\System.Data.SQLite.Linq.dll
+D:\ООП\FirstProgram\FirstProgram\bin\Debug\EntityFramework.xml
+D:\ООП\FirstProgram\FirstProgram\bin\Debug\EntityFramework.SqlServer.xml
+D:\ООП\FirstProgram\FirstProgram\bin\Debug\System.Data.SQLite.xml
+D:\ООП\FirstProgram\FirstProgram\obj\Debug\SecondWindow.g.cs
+D:\ООП\FirstProgram\FirstProgram\obj\Debug\SecondWindow.baml
+D:\ООП\FirstProgram\FirstProgram\obj\Debug\UserPageWindow.g.cs
+D:\ООП\FirstProgram\FirstProgram\obj\Debug\UserPageWindow.baml
+C:\Users\skrip\OneDrive\Рабочий стол\FirstProgram\FirstProgram\bin\Debug\FirstProgram.exe.config
+C:\Users\skrip\OneDrive\Рабочий стол\FirstProgram\FirstProgram\bin\Debug\FirstProgram.exe
+C:\Users\skrip\OneDrive\Рабочий стол\FirstProgram\FirstProgram\bin\Debug\FirstProgram.pdb
+C:\Users\skrip\OneDrive\Рабочий стол\FirstProgram\FirstProgram\bin\Debug\EntityFramework.dll
+C:\Users\skrip\OneDrive\Рабочий стол\FirstProgram\FirstProgram\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\skrip\OneDrive\Рабочий стол\FirstProgram\FirstProgram\bin\Debug\MaterialDesignColors.dll
+C:\Users\skrip\OneDrive\Рабочий стол\FirstProgram\FirstProgram\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\skrip\OneDrive\Рабочий стол\FirstProgram\FirstProgram\bin\Debug\System.Data.SQLite.dll
+C:\Users\skrip\OneDrive\Рабочий стол\FirstProgram\FirstProgram\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\skrip\OneDrive\Рабочий стол\FirstProgram\FirstProgram\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\skrip\OneDrive\Рабочий стол\FirstProgram\FirstProgram\bin\Debug\EntityFramework.xml
+C:\Users\skrip\OneDrive\Рабочий стол\FirstProgram\FirstProgram\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\skrip\OneDrive\Рабочий стол\FirstProgram\FirstProgram\bin\Debug\MaterialDesignColors.pdb
+C:\Users\skrip\OneDrive\Рабочий стол\FirstProgram\FirstProgram\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\skrip\OneDrive\Рабочий стол\FirstProgram\FirstProgram\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\skrip\OneDrive\Рабочий стол\FirstProgram\FirstProgram\bin\Debug\System.Data.SQLite.xml
+C:\Users\skrip\OneDrive\Рабочий стол\FirstProgram\FirstProgram\obj\Debug\FirstProgram.csprojAssemblyReference.cache
+C:\Users\skrip\OneDrive\Рабочий стол\FirstProgram\FirstProgram\obj\Debug\MainWindow.g.cs
+C:\Users\skrip\OneDrive\Рабочий стол\FirstProgram\FirstProgram\obj\Debug\SecondWindow.g.cs
+C:\Users\skrip\OneDrive\Рабочий стол\FirstProgram\FirstProgram\obj\Debug\UserPageWindow.g.cs
+C:\Users\skrip\OneDrive\Рабочий стол\FirstProgram\FirstProgram\obj\Debug\App.g.cs
+C:\Users\skrip\OneDrive\Рабочий стол\FirstProgram\FirstProgram\obj\Debug\FirstProgram_MarkupCompile.cache
+C:\Users\skrip\OneDrive\Рабочий стол\FirstProgram\FirstProgram\obj\Debug\FirstProgram_MarkupCompile.lref
+C:\Users\skrip\OneDrive\Рабочий стол\FirstProgram\FirstProgram\obj\Debug\App.baml
+C:\Users\skrip\OneDrive\Рабочий стол\FirstProgram\FirstProgram\obj\Debug\MainWindow.baml
+C:\Users\skrip\OneDrive\Рабочий стол\FirstProgram\FirstProgram\obj\Debug\SecondWindow.baml
+C:\Users\skrip\OneDrive\Рабочий стол\FirstProgram\FirstProgram\obj\Debug\UserPageWindow.baml
+C:\Users\skrip\OneDrive\Рабочий стол\FirstProgram\FirstProgram\obj\Debug\FirstProgram.g.resources
+C:\Users\skrip\OneDrive\Рабочий стол\FirstProgram\FirstProgram\obj\Debug\FirstProgram.Properties.Resources.resources
+C:\Users\skrip\OneDrive\Рабочий стол\FirstProgram\FirstProgram\obj\Debug\FirstProgram.csproj.GenerateResource.cache
+C:\Users\skrip\OneDrive\Рабочий стол\FirstProgram\FirstProgram\obj\Debug\FirstProgram.csproj.CoreCompileInputs.cache
+C:\Users\skrip\OneDrive\Рабочий стол\FirstProgram\FirstProgram\obj\Debug\FirstProgram.csproj.CopyComplete
+C:\Users\skrip\OneDrive\Рабочий стол\FirstProgram\FirstProgram\obj\Debug\FirstProgram.exe
+C:\Users\skrip\OneDrive\Рабочий стол\FirstProgram\FirstProgram\obj\Debug\FirstProgram.pdb
