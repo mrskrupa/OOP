@@ -34,12 +34,12 @@ namespace FirstProgram
             string Password2 = PasswordBox2.Password.Trim();
             string Email = EmailBox.Text.Trim();
 
-            if (Login.Length <= 5)
+            if (Login.Length < 5)
             {
                 LoginBox.ToolTip = "Це поле введено не коректно";
                 LoginBox.Background = Brushes.Red;
             }
-            else if (Password.Length <= 5)
+            else if (Password.Length < 5)
             {
                 PasswordBox.ToolTip = "Це поле введено не коректно";
                 PasswordBox.Background = Brushes.Red;
@@ -49,7 +49,7 @@ namespace FirstProgram
                 PasswordBox2.ToolTip = "Це поле введено не коректно";
                 PasswordBox2.Background = Brushes.Red;
             }
-            else if (Email.Length <= 5 || !Email.Contains("@") || !Email.Contains("."))
+            else if (Email.Length < 5 || !Email.Contains("@") || !Email.Contains("."))
             {
                 EmailBox.ToolTip = "Це поле введено не коректно";
                 EmailBox.Background = Brushes.Red;

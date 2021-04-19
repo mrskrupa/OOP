@@ -81,8 +81,11 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="AgeListWindow.xaml.cs">
-      <DependentUpon>AgeListWindow.xaml</DependentUpon>
+    <Compile Include="AgeListBoysWindow.xaml.cs">
+      <DependentUpon>AgeListBoysWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AgeListGirlsWindow.xaml.cs">
+      <DependentUpon>AgeListGirlsWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="ApContext.cs" />
     <Compile Include="SecondWindow.xaml.cs">
@@ -92,7 +95,17 @@
     <Compile Include="UserPageWindow.xaml.cs">
       <DependentUpon>UserPageWindow.xaml</DependentUpon>
     </Compile>
-    <Page Include="AgeListWindow.xaml">
+    <Compile Include="WeightAndHeightBoysListWindow.xaml.cs">
+      <DependentUpon>WeightAndHeightBoysListWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WeightAndHeightGirlsListWindow.xaml.cs">
+      <DependentUpon>WeightAndHeightGirlsListWindow.xaml</DependentUpon>
+    </Compile>
+    <Page Include="AgeListBoysWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="AgeListGirlsWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -113,6 +126,14 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="UserPageWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WeightAndHeightBoysListWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WeightAndHeightGirlsListWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

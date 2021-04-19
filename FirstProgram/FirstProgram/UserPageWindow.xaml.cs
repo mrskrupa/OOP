@@ -23,5 +23,17 @@ namespace FirstProgram
         {
             InitializeComponent();
         }
+        private void Button_Boys_Click(object sender, RoutedEventArgs e)
+        {
+            AgeListBoysWindow ageListBoysWindow = new AgeListBoysWindow();
+            ageListBoysWindow.Show();
+            Hide();
+        }
+        private void Button_Girls_Click(object sender, RoutedEventArgs e)
+        {
+            AgeListGirlsWindow ageListGirlsWindow = new AgeListGirlsWindow();
+            ageListGirlsWindow.Show();
+            Hide();
+        }
     }
 }

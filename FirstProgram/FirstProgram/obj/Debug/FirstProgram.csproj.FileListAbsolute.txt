@@ -66,3 +66,41 @@ C:\Users\skrip\OneDrive\Рабочий стол\FirstProgram\FirstProgram\obj\De
 C:\Users\skrip\OneDrive\Рабочий стол\FirstProgram\FirstProgram\obj\Debug\FirstProgram.csproj.CopyComplete
 C:\Users\skrip\OneDrive\Рабочий стол\FirstProgram\FirstProgram\obj\Debug\FirstProgram.exe
 C:\Users\skrip\OneDrive\Рабочий стол\FirstProgram\FirstProgram\obj\Debug\FirstProgram.pdb
+C:\Users\skrip\OneDrive\Документы\GitHub\OOP\FirstProgram\FirstProgram\obj\Debug\FirstProgram.csprojAssemblyReference.cache
+C:\Users\skrip\OneDrive\Документы\GitHub\OOP\FirstProgram\FirstProgram\obj\Debug\AgeListBoysWindow.g.cs
+C:\Users\skrip\OneDrive\Документы\GitHub\OOP\FirstProgram\FirstProgram\obj\Debug\AgeListGirlsWindow.g.cs
+C:\Users\skrip\OneDrive\Документы\GitHub\OOP\FirstProgram\FirstProgram\obj\Debug\MainWindow.g.cs
+C:\Users\skrip\OneDrive\Документы\GitHub\OOP\FirstProgram\FirstProgram\obj\Debug\SecondWindow.g.cs
+C:\Users\skrip\OneDrive\Документы\GitHub\OOP\FirstProgram\FirstProgram\obj\Debug\UserPageWindow.g.cs
+C:\Users\skrip\OneDrive\Документы\GitHub\OOP\FirstProgram\FirstProgram\obj\Debug\App.g.cs
+C:\Users\skrip\OneDrive\Документы\GitHub\OOP\FirstProgram\FirstProgram\obj\Debug\FirstProgram_MarkupCompile.cache
+C:\Users\skrip\OneDrive\Документы\GitHub\OOP\FirstProgram\FirstProgram\obj\Debug\FirstProgram_MarkupCompile.lref
+C:\Users\skrip\OneDrive\Документы\GitHub\OOP\FirstProgram\FirstProgram\obj\Debug\FirstProgram.exe
+C:\Users\skrip\OneDrive\Документы\GitHub\OOP\FirstProgram\FirstProgram\obj\Debug\FirstProgram.pdb
+C:\Users\skrip\OneDrive\Документы\GitHub\OOP\FirstProgram\FirstProgram\bin\Debug\FirstProgram.exe.config
+C:\Users\skrip\OneDrive\Документы\GitHub\OOP\FirstProgram\FirstProgram\bin\Debug\FirstProgram.exe
+C:\Users\skrip\OneDrive\Документы\GitHub\OOP\FirstProgram\FirstProgram\bin\Debug\FirstProgram.pdb
+C:\Users\skrip\OneDrive\Документы\GitHub\OOP\FirstProgram\FirstProgram\bin\Debug\EntityFramework.dll
+C:\Users\skrip\OneDrive\Документы\GitHub\OOP\FirstProgram\FirstProgram\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\skrip\OneDrive\Документы\GitHub\OOP\FirstProgram\FirstProgram\bin\Debug\MaterialDesignColors.dll
+C:\Users\skrip\OneDrive\Документы\GitHub\OOP\FirstProgram\FirstProgram\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\skrip\OneDrive\Документы\GitHub\OOP\FirstProgram\FirstProgram\bin\Debug\System.Data.SQLite.dll
+C:\Users\skrip\OneDrive\Документы\GitHub\OOP\FirstProgram\FirstProgram\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\skrip\OneDrive\Документы\GitHub\OOP\FirstProgram\FirstProgram\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\skrip\OneDrive\Документы\GitHub\OOP\FirstProgram\FirstProgram\bin\Debug\EntityFramework.xml
+C:\Users\skrip\OneDrive\Документы\GitHub\OOP\FirstProgram\FirstProgram\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\skrip\OneDrive\Документы\GitHub\OOP\FirstProgram\FirstProgram\bin\Debug\MaterialDesignColors.pdb
+C:\Users\skrip\OneDrive\Документы\GitHub\OOP\FirstProgram\FirstProgram\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\skrip\OneDrive\Документы\GitHub\OOP\FirstProgram\FirstProgram\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\skrip\OneDrive\Документы\GitHub\OOP\FirstProgram\FirstProgram\bin\Debug\System.Data.SQLite.xml
+C:\Users\skrip\OneDrive\Документы\GitHub\OOP\FirstProgram\FirstProgram\obj\Debug\App.baml
+C:\Users\skrip\OneDrive\Документы\GitHub\OOP\FirstProgram\FirstProgram\obj\Debug\AgeListBoysWindow.baml
+C:\Users\skrip\OneDrive\Документы\GitHub\OOP\FirstProgram\FirstProgram\obj\Debug\AgeListGirlsWindow.baml
+C:\Users\skrip\OneDrive\Документы\GitHub\OOP\FirstProgram\FirstProgram\obj\Debug\MainWindow.baml
+C:\Users\skrip\OneDrive\Документы\GitHub\OOP\FirstProgram\FirstProgram\obj\Debug\SecondWindow.baml
+C:\Users\skrip\OneDrive\Документы\GitHub\OOP\FirstProgram\FirstProgram\obj\Debug\UserPageWindow.baml
+C:\Users\skrip\OneDrive\Документы\GitHub\OOP\FirstProgram\FirstProgram\obj\Debug\FirstProgram.g.resources
+C:\Users\skrip\OneDrive\Документы\GitHub\OOP\FirstProgram\FirstProgram\obj\Debug\FirstProgram.Properties.Resources.resources
+C:\Users\skrip\OneDrive\Документы\GitHub\OOP\FirstProgram\FirstProgram\obj\Debug\FirstProgram.csproj.GenerateResource.cache
+C:\Users\skrip\OneDrive\Документы\GitHub\OOP\FirstProgram\FirstProgram\obj\Debug\FirstProgram.csproj.CoreCompileInputs.cache
+C:\Users\skrip\OneDrive\Документы\GitHub\OOP\FirstProgram\FirstProgram\obj\Debug\FirstProgram.csproj.CopyComplete

@@ -15,11 +15,11 @@ using System.Windows.Shapes;
 namespace FirstProgram
 {
     /// <summary>
-    /// Логика взаимодействия для AgeListWindow.xaml
+    /// Логика взаимодействия для AgeListGirlsWindow.xaml
     /// </summary>
-    public partial class AgeListWindow : Window
+    public partial class AgeListGirlsWindow : Window
     {
-        public AgeListWindow()
+        public AgeListGirlsWindow()
         {
             InitializeComponent();
         }

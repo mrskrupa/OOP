@@ -8,7 +8,7 @@ mc:Ignorable="d"
         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
         Title="MyProject" Height="500" Width="750" WindowStyle="None">
     <Grid Background="Purple">
-        <Border MinWidth="500" Margin="0,151,-0.4,121.6" Background="White" VerticalAlignment="Center" Padding="40" MaxWidth="650" CornerRadius="25" Height="221">
+        <Border MinWidth="500" Margin="0,151,-0.4,121.6" Background="White" VerticalAlignment="Center" Padding="40" MaxWidth="650" CornerRadius="25" Height="220">
             <Border.Effect>
                 <DropShadowEffect BlurRadius="90" Color="Black" ShadowDepth="0"/>
             </Border.Effect>
@@ -16,8 +16,8 @@ mc:Ignorable="d"
                 <TextBlock Text="Ваш кабінет" FontSize="30" FontWeight="Bold" Margin="0 0 0 20"/>
                 <TextBlock Text="Оберіть стать дитини" FontSize="17" FontWeight="DemiBold" Margin="0 0 0 20"/>
                 <Grid Margin="0 0 0 20">
-                    <Button HorizontalAlignment="Right" Content="Хлопчик" Click="Button_Click" Margin="0,0,-0.4,0" Width="230"/>
-                    <Button HorizontalAlignment="Left" Content="Дівчинка" Click="Button_Click" Width="230"/>
+                    <Button HorizontalAlignment="Right" Content="Хлопчик" Click="Button_Boys_Click" Width="230"/>
+                    <Button HorizontalAlignment="Left" Content="Дівчинка" Click="Button_Girls_Click" Width="230"/>
                 </Grid>
             </StackPanel>
         </Border>
