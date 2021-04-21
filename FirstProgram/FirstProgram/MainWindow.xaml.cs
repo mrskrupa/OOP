@@ -74,7 +74,6 @@ namespace FirstProgram
                 Hide();
             }
         }
-
         private void Button_Window_Auth_Click(object sender, RoutedEventArgs e)
         {
             SecondWindow secondWindow = new SecondWindow();
