@@ -21,7 +21,7 @@
                 <PasswordBox x:Name="PassBox" materialDesign:HintAssist.Hint="Введіть пароль" Style="{StaticResource MaterialDesignFloatingHintPasswordBox}"/>
                 <PasswordBox x:Name="PassBox2" materialDesign:HintAssist.Hint="Повторіть пароль" Style="{StaticResource MaterialDesignFloatingHintPasswordBox}"/>
                 <TextBox x:Name="textBoxEmail" materialDesign:HintAssist.Hint="Email" Style="{StaticResource MaterialDesignFloatingHintTextBox}"/>
-                <Button Content="Зареєструватися" Margin="0 20" Click="Button_Reg_Click"/>
+                <Button Content="Зареєструватися" x:Name="Reg_Button" Margin="0 20" Click="Button_Reg_Click"/>
             </StackPanel>
         </Border>
     </Grid>

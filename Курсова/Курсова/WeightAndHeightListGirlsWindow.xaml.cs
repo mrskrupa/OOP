@@ -11,6 +11,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using System.Windows.Media.Animation;
 
 namespace Курсова
 {
@@ -22,6 +23,12 @@ namespace Курсова
         public WeightAndHeightListGirlsWindow()
         {
             InitializeComponent();
+
+            DoubleAnimation doubleAnimation = new DoubleAnimation();
+            doubleAnimation.From = 0;
+            doubleAnimation.To = 230;
+            doubleAnimation.Duration = TimeSpan.FromSeconds(2);
+            Cont_Button.BeginAnimation(Button.WidthProperty, doubleAnimation);
         }
 
         private void Button_Continue_Girls_Click(object sender, RoutedEventArgs e)
@@ -58,22 +65,22 @@ namespace Курсова
 
                 double IMT;
                 IMT = a / (b * b);
-
-                if (c != 1 | IMT < 17)
+                #region Харчування
+                if (c != 1 | IMT < 14.5)
                 {
                     MenuForGirlsWindow menuForGirlsWindow = new MenuForGirlsWindow();
                     menuForGirlsWindow.textBox2.Text = " Не сніданок: cмажена картопля\n\nОбід: борщик\n\nВечеря: макарони";
                     menuForGirlsWindow.Show();
                     Hide();
                 }
-                else if (c != 1 | IMT > 17 | IMT < 19)
+                else if (c != 1 | IMT > 14.5 | IMT < 18)
                 {
                     MenuForGirlsWindow menuForGirlsWindow = new MenuForGirlsWindow();
                     menuForGirlsWindow.textBox2.Text = " Не сніданок: cмажена картопля\n\nОбід: борщик\n\nВечеря: макарони";
                     menuForGirlsWindow.Show();
                     Hide();
                 }
-                else if (c != 1 | IMT > 19 | IMT < 20)
+                else if (c != 1 | IMT > 18 | IMT < 20)
                 {
                     MenuForGirlsWindow menuForGirlsWindow = new MenuForGirlsWindow();
                     menuForGirlsWindow.textBox2.Text = " Не сніданок: cмажена картопля\n\nОбід: борщик\n\nВечеря: макарони";
@@ -87,21 +94,21 @@ namespace Курсова
                     menuForGirlsWindow.Show();
                     Hide();
                 }
-                else if (c != 2 | IMT < 15)
+                else if (c != 2 | IMT < 14)
                 {
                     MenuForGirlsWindow menuForGirlsWindow = new MenuForGirlsWindow();
                     menuForGirlsWindow.textBox2.Text = " Не сніданок: cмажена картопля\n\nОбід: борщик\n\nВечеря: макарони";
                     menuForGirlsWindow.Show();
                     Hide();
                 }
-                else if (c != 2 | IMT > 15 | IMT < 18)
+                else if (c != 2 | IMT > 14 | IMT < 17.2)
                 {
                     MenuForGirlsWindow menuForGirlsWindow = new MenuForGirlsWindow();
                     menuForGirlsWindow.textBox2.Text = " Не сніданок: cмажена картопля\n\nОбід: борщик\n\nВечеря: макарони";
                     menuForGirlsWindow.Show();
                     Hide();
                 }
-                else if (c != 2 | IMT > 18 | IMT < 19)
+                else if (c != 2 | IMT > 17.2 | IMT < 19)
                 {
                     MenuForGirlsWindow menuForGirlsWindow = new MenuForGirlsWindow();
                     menuForGirlsWindow.textBox2.Text = " Не сніданок: cмажена картопля\n\nОбід: борщик\n\nВечеря: макарони";
@@ -115,230 +122,231 @@ namespace Курсова
                     menuForGirlsWindow.Show();
                     Hide();
                 }
-                else if (c != 3 | IMT < 14.5)
+                else if (c != 3 | IMT < 14)
                 {
                     MenuForGirlsWindow menuForGirlsWindow = new MenuForGirlsWindow();
                     menuForGirlsWindow.textBox2.Text = " Не сніданок: cмажена картопля\n\nОбід: борщик\n\nВечеря: макарони";
                     menuForGirlsWindow.Show();
                     Hide();
                 }
-                else if (c != 3 | IMT > 14.5 | IMT < 17.5)
+                else if (c != 3 | IMT > 14 | IMT < 17)
                 {
                     MenuForGirlsWindow menuForGirlsWindow = new MenuForGirlsWindow();
                     menuForGirlsWindow.textBox2.Text = " Не сніданок: cмажена картопля\n\nОбід: борщик\n\nВечеря: макарони";
                     menuForGirlsWindow.Show();
                     Hide();
                 }
-                else if (c != 3 | IMT > 17.5 | IMT < 18.5)
+                else if (c != 3 | IMT > 17 | IMT < 18.1)
                 {
                     MenuForGirlsWindow menuForGirlsWindow = new MenuForGirlsWindow();
                     menuForGirlsWindow.textBox2.Text = " Не сніданок: cмажена картопля\n\nОбід: борщик\n\nВечеря: макарони";
                     menuForGirlsWindow.Show();
                     Hide();
                 }
-                else if (c != 3 | IMT > 18.5)
+                else if (c != 3 | IMT > 18.1)
                 {
                     MenuForGirlsWindow menuForGirlsWindow = new MenuForGirlsWindow();
                     menuForGirlsWindow.textBox2.Text = " Не сніданок: cмажена картопля\n\nОбід: борщик\n\nВечеря: макарони";
                     menuForGirlsWindow.Show();
                     Hide();
                 }
-                else if (c != 4 | IMT < 14.3)
+                else if (c != 4 | IMT < 13.3)
                 {
                     MenuForGirlsWindow menuForGirlsWindow = new MenuForGirlsWindow();
                     menuForGirlsWindow.textBox2.Text = " Не сніданок: cмажена картопля\n\nОбід: борщик\n\nВечеря: макарони";
                     menuForGirlsWindow.Show();
                     Hide();
                 }
-                else if (c != 4 | IMT > 14.3 | IMT < 17.6)
+                else if (c != 4 | IMT > 13.3 | IMT < 17)
                 {
                     MenuForGirlsWindow menuForGirlsWindow = new MenuForGirlsWindow();
                     menuForGirlsWindow.textBox2.Text = " Не сніданок: cмажена картопля\n\nОбід: борщик\n\nВечеря: макарони";
                     menuForGirlsWindow.Show();
                     Hide();
                 }
-                else if (c != 4 | IMT > 17.6 | IMT < 19)
+                else if (c != 4 | IMT > 17 | IMT < 18)
                 {
                     MenuForGirlsWindow menuForGirlsWindow = new MenuForGirlsWindow();
                     menuForGirlsWindow.textBox2.Text = " Не сніданок: cмажена картопля\n\nОбід: борщик\n\nВечеря: макарони";
                     menuForGirlsWindow.Show();
                     Hide();
                 }
-                else if (c != 4 | IMT > 19)
+                else if (c != 4 | IMT > 18)
                 {
                     MenuForGirlsWindow menuForGirlsWindow = new MenuForGirlsWindow();
                     menuForGirlsWindow.textBox2.Text = " Не сніданок: cмажена картопля\n\nОбід: борщик\n\nВечеря: макарони";
                     menuForGirlsWindow.Show();
                     Hide();
                 }
-                else if (c != 5 | IMT < 14.2)
+                else if (c != 5 | IMT < 13.2)
                 {
                     MenuForGirlsWindow menuForGirlsWindow = new MenuForGirlsWindow();
                     menuForGirlsWindow.textBox2.Text = " Не сніданок: cмажена картопля\n\nОбід: борщик\n\nВечеря: макарони";
                     menuForGirlsWindow.Show();
                     Hide();
                 }
-                else if (c != 5 | IMT > 14.2 | IMT < 18)
+                else if (c != 5 | IMT > 13.2 | IMT < 17)
                 {
                     MenuForGirlsWindow menuForGirlsWindow = new MenuForGirlsWindow();
                     menuForGirlsWindow.textBox2.Text = " Не сніданок: cмажена картопля\n\nОбід: борщик\n\nВечеря: макарони";
                     menuForGirlsWindow.Show();
                     Hide();
                 }
-                else if (c != 5 | IMT > 18 | IMT < 19.7)
+                else if (c != 5 | IMT > 17 | IMT < 18.2)
                 {
                     MenuForGirlsWindow menuForGirlsWindow = new MenuForGirlsWindow();
                     menuForGirlsWindow.textBox2.Text = " Не сніданок: cмажена картопля\n\nОбід: борщик\n\nВечеря: макарони";
                     menuForGirlsWindow.Show();
                     Hide();
                 }
-                else if (c != 5 | IMT > 19.7)
+                else if (c != 5 | IMT > 18.2)
                 {
                     MenuForGirlsWindow menuForGirlsWindow = new MenuForGirlsWindow();
                     menuForGirlsWindow.textBox2.Text = " Не сніданок: cмажена картопля\n\nОбід: борщик\n\nВечеря: макарони";
                     menuForGirlsWindow.Show();
                     Hide();
                 }
-                else if (c != 6 | IMT < 14.6)
+                else if (c != 6 | IMT < 13.2)
                 {
                     MenuForGirlsWindow menuForGirlsWindow = new MenuForGirlsWindow();
                     menuForGirlsWindow.textBox2.Text = " Не сніданок: cмажена картопля\n\nОбід: борщик\n\nВечеря: макарони";
                     menuForGirlsWindow.Show();
                     Hide();
                 }
-                else if (c != 6 | IMT > 14.6 | IMT < 18.5)
+                else if (c != 6 | IMT > 13.2 | IMT < 17.1)
                 {
                     MenuForGirlsWindow menuForGirlsWindow = new MenuForGirlsWindow();
                     menuForGirlsWindow.textBox2.Text = " Не сніданок: cмажена картопля\n\nОбід: борщик\n\nВечеря: макарони";
                     menuForGirlsWindow.Show();
                     Hide();
                 }
-                else if (c != 6 | IMT > 18.5 | IMT < 20.5)
+                else if (c != 6 | IMT > 17.1 | IMT < 18.9)
                 {
                     MenuForGirlsWindow menuForGirlsWindow = new MenuForGirlsWindow();
                     menuForGirlsWindow.textBox2.Text = " Не сніданок: cмажена картопля\n\nОбід: борщик\n\nВечеря: макарони";
                     menuForGirlsWindow.Show();
                     Hide();
                 }
-                else if (c != 6 | IMT > 20.5)
+                else if (c != 6 | IMT > 18.9)
                 {
                     MenuForGirlsWindow menuForBoysWindow = new MenuForGirlsWindow();
                     menuForBoysWindow.textBox2.Text = " Не сніданок: cмажена картопля\n\nОбід: борщик\n\nВечеря: макарони";
                     menuForBoysWindow.Show();
                     Hide();
                 }
-                else if (c != 7 | IMT < 14.8)
+                else if (c != 7 | IMT < 13.3)
                 {
                     MenuForGirlsWindow menuForGirlsWindow = new MenuForGirlsWindow();
                     menuForGirlsWindow.textBox2.Text = " Не сніданок: cмажена картопля\n\nОбід: борщик\n\nВечеря: макарони";
                     menuForGirlsWindow.Show();
                     Hide();
                 }
-                else if (c != 7 | IMT > 14.8 | IMT < 19.1)
+                else if (c != 7 | IMT > 13.3 | IMT < 17.5)
                 {
                     MenuForGirlsWindow menuForGirlsWindow = new MenuForGirlsWindow();
                     menuForGirlsWindow.textBox2.Text = " Не сніданок: cмажена картопля\n\nОбід: борщик\n\nВечеря: макарони";
                     menuForGirlsWindow.Show();
                     Hide();
                 }
-                else if (c != 7 | IMT > 19.1 | IMT < 21.5)
+                else if (c != 7 | IMT > 17.5 | IMT < 19.6)
                 {
                     MenuForGirlsWindow menuForGirlsWindow = new MenuForGirlsWindow();
                     menuForGirlsWindow.textBox2.Text = " Не сніданок: cмажена картопля\n\nОбід: борщик\n\nВечеря: макарони";
                     menuForGirlsWindow.Show();
                     Hide();
                 }
-                else if (c != 7 | IMT > 21.5)
+                else if (c != 7 | IMT > 19.6)
                 {
                     MenuForGirlsWindow menuForGirlsWindow = new MenuForGirlsWindow();
                     menuForGirlsWindow.textBox2.Text = " Не сніданок: cмажена картопля\n\nОбід: борщик\n\nВечеря: макарони";
                     menuForGirlsWindow.Show();
                     Hide();
                 }
-                else if (c != 8 | IMT < 14.9)
+                else if (c != 8 | IMT < 13.5)
                 {
                     MenuForGirlsWindow menuForGirlsWindow = new MenuForGirlsWindow();
                     menuForGirlsWindow.textBox2.Text = " Не сніданок: cмажена картопля\n\nОбід: борщик\n\nВечеря: макарони";
                     menuForGirlsWindow.Show();
                     Hide();
                 }
-                else if (c != 8 | IMT > 14.9 | IMT < 20)
+                else if (c != 8 | IMT > 13.5 | IMT < 18.1)
                 {
                     MenuForGirlsWindow menuForGirlsWindow = new MenuForGirlsWindow();
                     menuForGirlsWindow.textBox2.Text = " Не сніданок: cмажена картопля\n\nОбід: борщик\n\nВечеря: макарони";
                     menuForGirlsWindow.Show();
                     Hide();
                 }
-                else if (c != 8 | IMT > 20 | IMT < 22.7)
+                else if (c != 8 | IMT > 18.1 | IMT < 20.5)
                 {
                     MenuForGirlsWindow menuForGirlsWindow = new MenuForGirlsWindow();
                     menuForGirlsWindow.textBox2.Text = " Не сніданок: cмажена картопля\n\nОбід: борщик\n\nВечеря: макарони";
                     menuForGirlsWindow.Show();
                     Hide();
                 }
-                else if (c != 8 | IMT > 22.7)
+                else if (c != 8 | IMT > 20.5)
                 {
                     MenuForGirlsWindow menuForGirlsWindow = new MenuForGirlsWindow();
                     menuForGirlsWindow.textBox2.Text = " Не сніданок: cмажена картопля\n\nОбід: борщик\n\nВечеря: макарони";
                     menuForGirlsWindow.Show();
                     Hide();
                 }
-                else if (c != 9 | IMT < 15)
+                else if (c != 9 | IMT < 13.9)
                 {
                     MenuForGirlsWindow menuForGirlsWindow = new MenuForGirlsWindow();
                     menuForGirlsWindow.textBox2.Text = " Не сніданок: cмажена картопля\n\nОбід: борщик\n\nВечеря: макарони";
                     menuForGirlsWindow.Show();
                     Hide();
                 }
-                else if (c != 9 | IMT > 15 | IMT < 21)
+                else if (c != 9 | IMT > 13.9 | IMT < 18.9)
                 {
                     MenuForGirlsWindow menuForGirlsWindow = new MenuForGirlsWindow();
                     menuForGirlsWindow.textBox2.Text = " Не сніданок: cмажена картопля\n\nОбід: борщик\n\nВечеря: макарони";
                     menuForGirlsWindow.Show();
                     Hide();
                 }
-                else if (c != 9 | IMT > 21 | IMT < 24)
+                else if (c != 9 | IMT > 18.9 | IMT < 21.9)
                 {
                     MenuForGirlsWindow menuForGirlsWindow = new MenuForGirlsWindow();
                     menuForGirlsWindow.textBox2.Text = " Не сніданок: cмажена картопля\n\nОбід: борщик\n\nВечеря: макарони";
                     menuForGirlsWindow.Show();
                     Hide();
                 }
-                else if (c != 9 | IMT > 24)
+                else if (c != 9 | IMT > 21.9)
                 {
                     MenuForGirlsWindow menuForGirlsWindow = new MenuForGirlsWindow();
                     menuForGirlsWindow.textBox2.Text = " Не сніданок: cмажена картопля\n\nОбід: борщик\n\nВечеря: макарони";
                     menuForGirlsWindow.Show();
                     Hide();
                 }
-                else if (c != 10 | IMT < 15.5)
+                else if (c != 10 | IMT < 14)
                 {
                     MenuForGirlsWindow menuForGirlsWindow = new MenuForGirlsWindow();
                     menuForGirlsWindow.textBox2.Text = " Не сніданок: cмажена картопля\n\nОбід: борщик\n\nВечеря: макарони";
                     menuForGirlsWindow.Show();
                     Hide();
                 }
-                else if (c != 10 | IMT > 15.5 | IMT < 21.8)
+                else if (c != 10 | IMT > 14 | IMT < 19.5)
                 {
                     MenuForGirlsWindow menuForGirlsWindow = new MenuForGirlsWindow();
                     menuForGirlsWindow.textBox2.Text = " Не сніданок: cмажена картопля\n\nОбід: борщик\n\nВечеря: макарони";
                     menuForGirlsWindow.Show();
                     Hide();
                 }
-                else if (c != 10 | IMT > 21.8 | IMT < 25.1)
+                else if (c != 10 | IMT > 19.5 | IMT < 23)
                 {
                     MenuForGirlsWindow menuForGirlsWindow = new MenuForGirlsWindow();
                     menuForGirlsWindow.textBox2.Text = " Не сніданок: cмажена картопля\n\nОбід: борщик\n\nВечеря: макарони";
                     menuForGirlsWindow.Show();
                     Hide();
                 }
-                else if (c != 10 | IMT > 25.1)
+                else if (c != 10 | IMT > 23)
                 {
                     MenuForGirlsWindow menuForGirlsWindow = new MenuForGirlsWindow();
                     menuForGirlsWindow.textBox2.Text = " Не сніданок: cмажена картопля\n\nОбід: борщик\n\nВечеря: макарони";
                     menuForGirlsWindow.Show();
                     Hide();
                 }
+                #endregion
             }
         }
     }

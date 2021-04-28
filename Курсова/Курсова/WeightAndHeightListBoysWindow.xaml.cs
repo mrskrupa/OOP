@@ -11,6 +11,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using System.Windows.Media.Animation;
 
 namespace Курсова
 {
@@ -22,6 +23,12 @@ namespace Курсова
         public WeightAndHeightListBoysWindow()
         {
             InitializeComponent();
+
+            DoubleAnimation doubleAnimation = new DoubleAnimation();
+            doubleAnimation.From = 0;
+            doubleAnimation.To = 600;
+            doubleAnimation.Duration = TimeSpan.FromSeconds(2);
+            Continue_Button.BeginAnimation(Button.WidthProperty, doubleAnimation);
         }
 
         private void Button_Continue_Boys_Click(object sender, RoutedEventArgs e)
@@ -58,7 +65,7 @@ namespace Курсова
 
                 double IMT;
                 IMT = a / (b * b);
-
+                #region Харчування
                 if (c != 1 | IMT < 17)
                 {
                     MenuForBoysWindow menuForBoysWindow = new MenuForBoysWindow();
@@ -339,6 +346,7 @@ namespace Курсова
                     menuForBoysWindow.Show();
                     Hide();
                 }
+                #endregion
             }
         }
     }

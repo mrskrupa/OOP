@@ -18,7 +18,7 @@
                 <TextBox x:Name="WeightBoysBox" materialDesign:HintAssist.Hint="Введіть вагу дитини! ( у кілограмах)" Style="{StaticResource MaterialDesignFloatingHintTextBox}"/>
                 <TextBox x:Name="HeightBoysBox" materialDesign:HintAssist.Hint="Введіть зріст дитини! (у метрах)" Style="{StaticResource MaterialDesignFloatingHintTextBox}"/>
                 <TextBox x:Name="AgeBoysBox" materialDesign:HintAssist.Hint="Введіть вік дитини! (повних років)" Style="{StaticResource MaterialDesignFloatingHintTextBox}"/>
-                <Button Content="Продовжити" Margin="0 20" Click="Button_Continue_Boys_Click"/>
+                <Button Content="Продовжити" x:Name="Continue_Button" Margin="0 20" Click="Button_Continue_Boys_Click"/>
             </StackPanel>
         </Border>
     </Grid>

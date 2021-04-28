@@ -15,7 +15,7 @@
             <StackPanel>
                 <TextBlock Text="Ваш раціон" FontSize="30" FontWeight="Bold" Margin="0 0 0 20"/>
                 <TextBox x:Name="textBox1"  FontSize="10" FontWeight="Bold" Margin="0 0 0 20"/>
-                <Button Content="Повернутися на головну сторінку" Margin="0 0 0 20" Click="Button_Back_Boys_Click"/>
+                <Button Content="Повернутися на головну сторінку" x:Name="Back_Button" Margin="0 0 0 20" Click="Button_Back_Boys_Click"/>
             </StackPanel>
         </Border>
     </Grid>

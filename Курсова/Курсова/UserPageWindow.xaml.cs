@@ -11,6 +11,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using System.Windows.Media.Animation;
 
 namespace Курсова
 {
@@ -22,6 +23,20 @@ namespace Курсова
         public UserPageWindow()
         {
             InitializeComponent();
+
+
+            DoubleAnimation doubleAnimation = new DoubleAnimation();
+            doubleAnimation.From = 0;
+            doubleAnimation.To = 230;
+            doubleAnimation.Duration = TimeSpan.FromSeconds(2);
+            Girls_Button.BeginAnimation(Button.WidthProperty, doubleAnimation);
+
+
+            DoubleAnimation thirdanimation = new DoubleAnimation();
+            thirdanimation.From = 0;
+            thirdanimation.To = 230;
+            thirdanimation.Duration = TimeSpan.FromSeconds(2);
+            Boys_Button.BeginAnimation(Button.WidthProperty, thirdanimation);
         }
 
         private void Button_Boys_Click(object sender, RoutedEventArgs e)

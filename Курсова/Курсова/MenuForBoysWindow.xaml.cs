@@ -11,6 +11,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using System.Windows.Media.Animation;
 
 namespace Курсова
 {
@@ -22,6 +23,12 @@ namespace Курсова
         public MenuForBoysWindow()
         {
             InitializeComponent();
+
+            DoubleAnimation doubleAnimation = new DoubleAnimation();
+            doubleAnimation.From = 0;
+            doubleAnimation.To = 600;
+            doubleAnimation.Duration = TimeSpan.FromSeconds(2);
+            Back_Button.BeginAnimation(Button.WidthProperty, doubleAnimation);
         }
 
         private void Button_Back_Boys_Click(object sender, RoutedEventArgs e)
