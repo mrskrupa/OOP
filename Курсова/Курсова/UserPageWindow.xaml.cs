@@ -52,5 +52,14 @@ namespace Курсова
             weightAndHeightListGirlsWindow.Show();
             Hide(); 
         }
+        private void MinimizedButton_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            this.WindowState = WindowState.Minimized;
+        }
+
+        private void ExitButton_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            this.Close();
+        }
     }
 }

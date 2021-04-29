@@ -6,9 +6,24 @@
         xmlns:local="clr-namespace:Курсова"
         mc:Ignorable="d"
         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
-        Title="MyProject" Height="500" Width="800" WindowStyle="None">
+        Title="MyProject" Height="520" Width="800" WindowStyle="None">
     <Grid Background="Purple">
-        <Border MinWidth="500" Margin="10,66,9.6,66.4" Background="White" VerticalAlignment="Center" Padding="40" MaxWidth="650" CornerRadius="25" Grid.ColumnSpan="3">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="41*"/>
+            <RowDefinition Height="473*"/>
+        </Grid.RowDefinitions>
+        <Grid Name="ToolBar" Grid.Row="0" Margin="0,0,-0.4,9.8">
+            <Polygon Fill="White" Opacity="1"
+                     Points="267,0
+                     305,7
+                     479,7
+                     507,0"/>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                <Image Name="MinimizedButton" Height="28" Width="28" Margin="2" Source="Source/icons8-macos-свернуть-96.png" MouseDown="MinimizedButton_MouseDown" />
+                <Image Name="ExitButton"  Height="28" Width="28" Margin="2" Source="Source/icons8-macos-закрыть-96.png" MouseDown="ExitButton_MouseDown" />
+            </StackPanel>
+        </Grid>
+        <Border MinWidth="500" Margin="10,47.2,9.6,88.6" Background="White" VerticalAlignment="Center" Padding="40" MaxWidth="650" CornerRadius="25" Height="337" Grid.Row="1">
             <Border.Effect>
                 <DropShadowEffect BlurRadius="90" Color="Black" ShadowDepth="0"/>
             </Border.Effect>
