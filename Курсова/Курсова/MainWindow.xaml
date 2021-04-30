@@ -6,13 +6,13 @@
         xmlns:local="clr-namespace:Курсова"
         mc:Ignorable="d"
         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
-        Title="MyProject" Height="550" Width="800" WindowStyle="None">
+        Title="MyProject" Height="550" Width="800" WindowStyle="None" WindowStartupLocation="CenterScreen">
     <Grid Background="Purple">
         <Grid.RowDefinitions>
             <RowDefinition Height="30*"/>
             <RowDefinition Height="520*"/>
         </Grid.RowDefinitions>
-        <Grid Name="ToolBar" Grid.Row="0">
+        <Grid Name="ToolBar" Grid.Row="0" MouseDown="ToolBar_MouseDown">
             <Polygon Fill="White" Opacity="1"
                      Points="267,0
                      305,7

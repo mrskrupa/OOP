@@ -59,7 +59,7 @@ namespace Курсова
 
         private void ExitButton_MouseDown(object sender, MouseButtonEventArgs e)
         {
-            this.Close();
+            App.Current.Shutdown();
         }
     }
 }
