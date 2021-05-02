@@ -15,7 +15,7 @@
         <Grid Name="ToolBar" Grid.Row="0" MouseDown="ToolBar_MouseDown">
             <Polygon Fill="White" Opacity="1"
                      Points="267,0
-                     305,7
+                     295,7
                      479,7
                      507,0"/>
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">

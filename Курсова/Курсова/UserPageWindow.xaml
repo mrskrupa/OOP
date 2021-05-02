@@ -12,10 +12,10 @@
             <RowDefinition Height="16*"/>
             <RowDefinition Height="181*"/>
         </Grid.RowDefinitions>
-        <Grid Name="ToolBar" Grid.Row="0" Margin="0,0,0,2">
+        <Grid Name="ToolBar" Grid.Row="0" MouseDown="ToolBar_MouseDown_1">
             <Polygon Fill="White" Opacity="1"
                      Points="267,0
-                     305,7
+                     295,7
                      479,7
                      507,0"/>
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">

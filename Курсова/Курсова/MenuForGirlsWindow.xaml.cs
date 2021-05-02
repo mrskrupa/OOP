@@ -46,7 +46,7 @@ namespace Курсова
         {
             App.Current.Shutdown();
         }
-        private void ToolBar_MouseDown(object sender, MouseButtonEventArgs e)
+        private void ToolBar_MouseDown_1(object sender, MouseButtonEventArgs e)
         {
             if (e.ChangedButton == MouseButton.Left)
             {
