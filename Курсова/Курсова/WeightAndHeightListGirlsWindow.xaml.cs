@@ -36,9 +36,13 @@ namespace Курсова
             string WeightGirls = WeightGirlsBox.Text.Trim();
             string HeightGirls = HeightGirlsBox.Text.Trim();
             string AgeGirls = AgeGirlsBox.Text.Trim();
-            double a = double.Parse(WeightGirls);
-            double b = double.Parse(HeightGirls);
-            int c = int.Parse(AgeGirls);
+            double a;
+            bool flag;
+            flag = double.TryParse(WeightGirls, out a);
+            double b;
+            flag = double.TryParse(HeightGirls, out b);
+            int c;
+            flag = int.TryParse(AgeGirls, out c);
             if (a <= 0)
             {
                 WeightGirlsBox.ToolTip = "Це поле введено не коректно";

@@ -36,22 +36,27 @@ namespace Курсова
             string WeightBoys = WeightBoysBox.Text.Trim();
             string HeightBoys = HeightBoysBox.Text.Trim();
             string AgeBoys = AgeBoysBox.Text.Trim();
-            double a = double.Parse(WeightBoys);
-            double b = double.Parse(HeightBoys);
-            int c = int.Parse(AgeBoys);
+            double a;
+            bool flag;
+            flag = double.TryParse(WeightBoys, out a);
+            double b; 
+            flag = double.TryParse(HeightBoys, out b);
+            int c;
+            flag = int.TryParse(AgeBoys, out c);
+
             if (a <= 0)
             {
-                WeightBoysBox.ToolTip = "Це поле введено не коректно";
+                WeightBoysBox.ToolTip = "Заповніть поле, або введіть коректні дані!";
                 WeightBoysBox.Background = Brushes.Red;
             }
             else if (b <= 0)
             {
-                HeightBoysBox.ToolTip = "Це поле введено не коректно";
+                HeightBoysBox.ToolTip = "Заповніть поле, або введіть коректні дані!";
                 HeightBoysBox.Background = Brushes.Red;
             }
             else if (c <= 0)
             {
-                AgeBoysBox.ToolTip = "Це поле введено не коректно";
+                AgeBoysBox.ToolTip = "Заповніть поле, або введіть коректні дані!";
                 AgeBoysBox.Background = Brushes.Red;
             }
             else
