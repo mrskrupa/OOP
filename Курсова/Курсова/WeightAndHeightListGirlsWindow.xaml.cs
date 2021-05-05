@@ -26,7 +26,7 @@ namespace Курсова
 
             DoubleAnimation doubleAnimation = new DoubleAnimation();
             doubleAnimation.From = 0;
-            doubleAnimation.To = 230;
+            doubleAnimation.To = 600;
             doubleAnimation.Duration = TimeSpan.FromSeconds(2);
             Cont_Button.BeginAnimation(Button.WidthProperty, doubleAnimation);
         }
@@ -45,17 +45,17 @@ namespace Курсова
             flag = int.TryParse(AgeGirls, out c);
             if (a <= 0)
             {
-                WeightGirlsBox.ToolTip = "Це поле введено не коректно";
+                WeightGirlsBox.ToolTip = "Заповніть поле, або введіть коректні дані!";
                 WeightGirlsBox.Background = Brushes.Red;
             }
             else if (b <= 0)
             {
-                HeightGirlsBox.ToolTip = "Це поле введено не коректно";
+                HeightGirlsBox.ToolTip = "Заповніть поле, або введіть коректні дані!";
                 HeightGirlsBox.Background = Brushes.Red;
             }
             else if(c <= 0)
             {
-                AgeGirlsBox.ToolTip = "Це поле введено не коректно";
+                AgeGirlsBox.ToolTip = "Заповніть поле, або введіть коректні дані!";
                 AgeGirlsBox.Background = Brushes.Red;
             }
             else
