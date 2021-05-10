@@ -53,9 +53,9 @@ namespace Курсова
                 HeightGirlsBox.ToolTip = "Заповніть поле, або введіть коректні дані!";
                 HeightGirlsBox.Background = Brushes.Red;
             }
-            else if(c <= 0)
+            else if(c <= 0 || c > 10)
             {
-                AgeGirlsBox.ToolTip = "Заповніть поле, або введіть коректні дані!";
+                AgeGirlsBox.ToolTip = "Заповніть поле, або введіть коректні дані (від 1-10 років)!";
                 AgeGirlsBox.Background = Brushes.Red;
             }
             else
