@@ -28,14 +28,14 @@ namespace Курсова
             DoubleAnimation doubleAnimation = new DoubleAnimation();
             doubleAnimation.From = 0;
             doubleAnimation.To = 230;
-            doubleAnimation.Duration = TimeSpan.FromSeconds(2);
+            doubleAnimation.Duration = TimeSpan.FromSeconds(1);
             Girls_Button.BeginAnimation(Button.WidthProperty, doubleAnimation);
 
 
             DoubleAnimation thirdanimation = new DoubleAnimation();
             thirdanimation.From = 0;
             thirdanimation.To = 230;
-            thirdanimation.Duration = TimeSpan.FromSeconds(2);
+            thirdanimation.Duration = TimeSpan.FromSeconds(1);
             Boys_Button.BeginAnimation(Button.WidthProperty, thirdanimation);
         }
 

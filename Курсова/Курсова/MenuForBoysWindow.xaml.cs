@@ -27,7 +27,7 @@ namespace Курсова
             DoubleAnimation doubleAnimation = new DoubleAnimation();
             doubleAnimation.From = 0;
             doubleAnimation.To = 600;
-            doubleAnimation.Duration = TimeSpan.FromSeconds(2);
+            doubleAnimation.Duration = TimeSpan.FromSeconds(1);
             Back_Button.BeginAnimation(Button.WidthProperty, doubleAnimation);
         }
 

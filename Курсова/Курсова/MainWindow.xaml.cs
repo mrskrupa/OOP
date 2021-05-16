@@ -30,7 +30,7 @@ namespace Курсова
             DoubleAnimation doubleAnimation = new DoubleAnimation();
             doubleAnimation.From = 0;
             doubleAnimation.To = 600;
-            doubleAnimation.Duration = TimeSpan.FromSeconds(3);
+            doubleAnimation.Duration = TimeSpan.FromSeconds(1.5);
             Reg_Button.BeginAnimation(Button.WidthProperty, doubleAnimation);
         }
 
